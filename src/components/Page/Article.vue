@@ -29,7 +29,7 @@
   </teleport>
   <div class="error" v-if="error">
     <CustomIcon type="icon-chucuo" style="font-size: 80px" />
-    <p>出错啦1</p>
+    <p>出错啦</p>
   </div>
   <div class="article" ref="article-wrap" v-else>
     <h1 style="margin-bottom: 6px">{{ article.title }}</h1>
